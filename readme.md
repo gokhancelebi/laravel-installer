@@ -1,8 +1,7 @@
-<p>
-    .env file generator for laravel. <br>
-    Also points all root directory requests to public/index.php so you can install on shared  without having to change the server config.
-</p>
+ 
+- .env file generator for laravel projects
+- Points all root directory requests to public/index.php so you can install on shared hosting without having to change the server config.
+- Creates symlink for storage directory
 
-- Todo
 
-- [x] config for nginx servers
+- [x] config generator for nginx servers
