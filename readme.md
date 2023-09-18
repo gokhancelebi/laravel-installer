@@ -7,3 +7,4 @@
 # Todo
 
 - [x] config generator for nginx servers
+- [ ] Create completed route in laravel and cache config, routes and views
