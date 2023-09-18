@@ -35,6 +35,8 @@ function install(){
 
     file_put_contents(__DIR__ . '/../../.env', $env_example);
 
+    # link storage
+    symlink(__DIR__ . '/../../storage/app/public', __DIR__ . '/../../public/storage');
 
     return true;
 
